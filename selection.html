@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<title>Animation of Sorting Algorithms</title>
+<link rel="stylesheet" type="text/css" href="C:\Users\User\Desktop\dataStructuresProject\css\selection.css">
+</head>
+<body>
+<h1>Animation of Selection Sort and Insertion Sort Algorithms</h1>
+<label>Create your Array</label>
+<input type="number" name="" id="array">
+<br><br><label>Speed <select id="speedSelectList" >
+<option  value="2000" >slow</option>
+<option  value="600" >medium</option>
+<option  value="100" >fast</option>
+</select>
+</label>
+
+<label>Algorithm <select id="algorithmSelectList" >
+<option  value="0" >Selection Sort</option>
+<option  value="1" >Insertion Sort</option>
+</select>
+</label>
+
+<input type="button" value="Start"  onclick="ExecuteSort()" />
+  <p id="e"></p>
+<div  id="OutDiv" > 
+</div>
+<script type="text/javascript" src="C:\Users\User\Desktop\dataStructuresProject\js\selection.js"></script>
+</body>
+</html>
